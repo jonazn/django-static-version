@@ -8,5 +8,6 @@ Then, simply use the `static_version` template tag in place of the default `stat
 
 ```
 {% load custom_tags %}
+...
 <link rel="stylesheet" type="text/css" href="{% static_version 'admin/css/base.css' %}" />
 ```
